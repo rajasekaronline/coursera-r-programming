@@ -246,3 +246,4 @@ submitSolution <- function(email, ch.resp, sid, output, signature, src = "",
         s <- strsplit(result, "\\r\\n")[[1]]
         tail(s, 1)
 }
+
