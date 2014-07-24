@@ -50,3 +50,4 @@ rankall <- function(outcome, num = "best") {
     newdata <- newdata[order(newdata['state'], decreasing = FALSE), ]
     newdata
 }
+
